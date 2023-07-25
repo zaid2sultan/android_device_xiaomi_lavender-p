@@ -10,9 +10,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common PixelExperience stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_SUPPORTS_CALL_RECORDING := true
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
