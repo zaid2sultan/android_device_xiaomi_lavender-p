@@ -18,6 +18,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_USES_AOSP_RECOVERY := true
 
 # Inherit Some Applictions
 $(call inherit-product, packages/apps/android/Camera/config.mk)
