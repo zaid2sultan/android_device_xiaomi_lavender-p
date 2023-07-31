@@ -13,6 +13,7 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 ARROW_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
+IS_OFFICIAL := true
 
 # Inherit Some Applictions
 $(call inherit-product, packages/apps/android/Camera/config.mk)
