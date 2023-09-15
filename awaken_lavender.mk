@@ -10,6 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common ProjectAwaken stuff
 $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+AWAKEN_BUILD_TYPE := UNOFFICIAL
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
