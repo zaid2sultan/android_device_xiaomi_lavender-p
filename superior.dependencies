@@ -1,11 +1,11 @@
 [
   {
-    "repository": "ImSurajx/android_kernel_xiaomi_lavender",
+    "repository": "zaid2sultan/android_kernel_xiaomi_lavender-p",
     "target_path": "kernel/xiaomi/lavender",
     "branch": "13.0"
   },
   {
-    "repository": "ImSurajx/android_vendor_xiaomi_lavender",
+    "repository": "zaid2sultan/android_vendor_xiaomi_lavender-p",
     "target_path": "vendor/xiaomi/lavender",
     "branch": "13.0"
   }
